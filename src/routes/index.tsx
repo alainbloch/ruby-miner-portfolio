@@ -161,7 +161,7 @@ function HomePage() {
         <HeroPixelField />
         <div className="pointer-events-none relative z-10 mx-auto max-w-[80rem] px-6 pb-20 pt-16 md:px-8">
           <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary animate-rise">
-            Alain Bloch — Backend Engineer
+            Alain Bloch — Fullstack Software Engineer & Consultant
           </p>
           <h1 className="mt-5 font-display text-[2.15rem] leading-[0.88] tracking-tight animate-rise sm:text-[4.25rem] md:text-[5rem] lg:text-[6.75rem] xl:text-[8.5rem]">
             Ship the next product
