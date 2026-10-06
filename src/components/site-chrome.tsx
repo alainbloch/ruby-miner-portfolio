@@ -140,7 +140,7 @@ export function SiteHeader() {
           })}
         </nav>
         <a
-          href="mailto:alain@rubyminer.dev"
+          href="mailto:alainbloch@gmail.com"
           className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
         >
           Get in touch

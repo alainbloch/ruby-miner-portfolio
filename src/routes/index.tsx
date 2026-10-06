@@ -190,9 +190,7 @@ function HomePage() {
           <div className="mt-8 flex flex-wrap items-center gap-6 font-mono text-xs text-foreground animate-rise">
             <span>San Diego, CA</span>
             <span>/</span>
-            <span>alain@rubyminer.dev</span>
-            <span>/</span>
-            <span>@rubyminer</span>
+            <span>alainbloch@gmail.com</span>
           </div>
         </div>
       </section>
