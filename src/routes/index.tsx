@@ -166,10 +166,10 @@ function HomePage() {
           <h1 className="mt-5 font-display text-[2.15rem] leading-[0.88] tracking-tight animate-rise sm:text-[4.25rem] md:text-[5rem] lg:text-[6.75rem] xl:text-[8.5rem]">
             Ship the next product
             <br />
-            on a backend that holds.
+            on a backend that scales.
           </h1>
           <p className="mt-6 max-w-[44ch] text-lg text-pretty text-foreground animate-rise">
-            I dig deep into Ruby, Rails and Postgres — carving fast, boring, dependable services out
+            I dig deep into Ruby, Rails and Postgres — carving fast, dependable services out
             of messy legacy rock.
           </p>
           <div className="pointer-events-auto mt-8 flex items-center gap-3 animate-rise">
@@ -198,7 +198,7 @@ function HomePage() {
       <section className="mx-auto max-w-[80rem] px-6 pb-20 md:px-8">
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary">What I build</p>
         <h2 className="mt-4 max-w-[16ch] font-display text-5xl tracking-wide sm:text-6xl">
-          Platforms that stay up, and APIs people can ship against
+          Platforms that stay up, and APIs customers can work with
         </h2>
         <div className="mt-10 grid grid-cols-1 border border-glass-border md:grid-cols-3">
           {services.map((service) => (
@@ -281,8 +281,8 @@ function HomePage() {
               Let’s build your next big thing
             </h2>
             <p className="mt-4 max-w-[48ch] text-pretty text-foreground">
-              Have a product, a platform, or a system your team has outgrown? Write me. I’ll help you
-              design it and ship it — Rails, APIs, and the hard parts in between.
+              Have a product, a platform, or a system your team needs help with? Contact me. I’ll help you
+              refactor, and ship it — Rails, APIs, and the hard parts in between.
             </p>
             <div className="pointer-events-auto mt-8 flex flex-wrap items-center gap-3">
             <a
