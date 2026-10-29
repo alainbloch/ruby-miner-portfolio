@@ -23,18 +23,34 @@ const github = (repo: string) => `https://github.com/alainbloch/${repo}`;
 
 export const featuredProjects: Project[] = [
   {
-    slug: "uploadify-rails",
-    name: "Uploadify Rails",
-    tagline: "A Rails plugin that drops Uploadify in without the session headaches.",
+    slug: "formscaler",
+    name: "Formscaler",
+    tagline: "An open-core, AI-ready CMS for dynamic data.",
     description:
-      "Uploadify is a JavaScript library for uploading multiple files with progress bars. Uploadify Rails gets it running in a Rails app: it passes the authenticity token and session id through the Flash request, and sets the response format to JSON so the app can answer when a file lands.",
-    tags: ["Rails", "JavaScript", "jQuery"],
-    year: "2010",
+      "Formscaler is the open-core, AI-ready CMS for dynamic data. Define collections and permissions as data, publish pages, and let agents work through the same rules as your editors.",
+    tags: ["Rails", "PostgreSQL", "JSON Schema", "MCP"],
+    year: "2026",
     kind: "tooling",
-    stat: "16 ★",
-    terminal: "rake uploadify_rails:install",
-    link: github("uploadify_rails"),
+    image: "/projects/formscaler.png",
+    terminal: "formscaler.com",
+    link: "https://formscaler.com/",
   },
+  {
+    slug: "doctransit",
+    name: "DocTransit",
+    tagline: "E-signatures that just work.",
+    description:
+      "DocTransit is e-signatures that just work. Send, sign, and track documents with clear monthly limits and a free plan that actually works.",
+    tags: ["SaaS", "Docs"],
+    year: "2026",
+    kind: "tooling",
+    image: "/projects/doctransit.png",
+    terminal: "doctransit.com",
+    link: "https://doctransit.com/",
+  },
+];
+
+export const moreProjects: Project[] = [
   {
     slug: "openward",
     name: "Openward",
@@ -61,9 +77,19 @@ export const featuredProjects: Project[] = [
     terminal: "github.com/alainbloch/vertical-response",
     link: github("vertical-response"),
   },
-];
-
-export const moreProjects: Project[] = [
+    {
+    slug: "uploadify-rails",
+    name: "Uploadify Rails",
+    tagline: "A Rails plugin that drops Uploadify in without the session headaches.",
+    description:
+      "Uploadify is a JavaScript library for uploading multiple files with progress bars. Uploadify Rails gets it running in a Rails app: it passes the authenticity token and session id through the Flash request, and sets the response format to JSON so the app can answer when a file lands.",
+    tags: ["Rails", "JavaScript", "jQuery"],
+    year: "2010",
+    kind: "tooling",
+    stat: "16 ★",
+    terminal: "rake uploadify_rails:install",
+    link: github("uploadify_rails"),
+  },
   {
     slug: "twittest",
     name: "Twittest",
